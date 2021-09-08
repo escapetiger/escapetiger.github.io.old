@@ -1105,7 +1105,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .sidebar {
-  background: #222;
+  background: #fff;
   bottom: 0;
   box-shadow: inset 0 2px 6px #000;
   position: fixed;
@@ -1141,9 +1141,10 @@ pre .javascript .function {
   margin: 0 auto;
   max-width: 96px;
   padding: 2px;
+  border-radius: 50%;
 }
 .site-author-name {
-  color: #f5f5f5;
+  color: #999;
   font-weight: normal;
   margin: 5px 0 0;
   text-align: center;
@@ -1168,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ff2509;
+  background: #74c7ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
